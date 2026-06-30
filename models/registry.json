@@ -1,0 +1,1591 @@
+{
+  "appartements": {
+    "categorie": "appartements",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.8568314182861905,
+          "r2_std": 0.014385410707503854,
+          "mae_log_mean": 0.15780338937557736
+        },
+        "lgb": {
+          "r2_mean": 0.8529282493158858,
+          "r2_std": 0.013322981990802814,
+          "mae_log_mean": 0.16073843592993753
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 6.001211538461488,
+          "r2": 0.9601880182408843
+        },
+        "lgb": {
+          "mdape": 8.476510762550554,
+          "r2": 0.9240443236031906
+        }
+      }
+    },
+    "best_model": "xgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "etage",
+      "salons",
+      "surface_habitable",
+      "frais_syndic",
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien",
+      "type_appartement",
+      "equip_Ascenseur",
+      "equip_Balcon",
+      "equip_Chauffage",
+      "equip_Climatisation",
+      "equip_Concierge",
+      "equip_Cuisine_équipée",
+      "equip_Garage",
+      "equip_Jardin",
+      "equip_Meublé",
+      "equip_Parking",
+      "equip_Piscine",
+      "equip_Sécurité",
+      "equip_Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien",
+      "type_appartement"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "etage",
+      "salons",
+      "surface_habitable",
+      "frais_syndic"
+    ],
+    "equip_features": [
+      "equip_Ascenseur",
+      "equip_Balcon",
+      "equip_Chauffage",
+      "equip_Climatisation",
+      "equip_Concierge",
+      "equip_Cuisine_équipée",
+      "equip_Garage",
+      "equip_Jardin",
+      "equip_Meublé",
+      "equip_Parking",
+      "equip_Piscine",
+      "equip_Sécurité",
+      "equip_Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 3075,
+      "price_min": 110000.0,
+      "price_max": 3650000.0,
+      "price_median": 950000.0,
+      "localisations": [
+        "Afaq",
+        "Agdal",
+        "Ain Mezouar",
+        "Akioud",
+        "Allal El Fassi",
+        "Amelkis",
+        "Amerchich",
+        "Annakhil",
+        "Arset Ihiri",
+        "Assif",
+        "Autre secteur",
+        "Av Abdelkrim El Khattabi",
+        "Av Mohammed V",
+        "Av Mohammed VI",
+        "Azli",
+        "Azzouzia",
+        "Bab Atlas",
+        "Bab Doukkala",
+        "Bab El Khemis",
+        "Bd Moulay Abdellah",
+        "Bin Lkchali",
+        "Bouaakkaz",
+        "Centre Ville",
+        "Daoudiate",
+        "El Ghoul",
+        "El Moukef",
+        "Es Saada",
+        "Guéliz",
+        "Harti",
+        "Hay Al Hassani",
+        "Hay Al Massar",
+        "Hay Andalous",
+        "Hay Charaf",
+        "Hay Izdihar",
+        "Hay Lalla Haya",
+        "Hay Massira",
+        "Hay Targa",
+        "Hivernage",
+        "Hôpital Militaire",
+        "Issil",
+        "Les Portes de Marrakech",
+        "M'Hamid",
+        "Mabrouka",
+        "Majorelle",
+        "Marrakech",
+        "Massira 1",
+        "Massira 2",
+        "Massira 3",
+        "Michouar",
+        "Oued Ourika",
+        "Palmeraie",
+        "Prestigia",
+        "Rouidat",
+        "Route d'Agadir - Essaouira",
+        "Route d'Amezmiz",
+        "Route d'Ourika",
+        "Route de Casablanca",
+        "Route de Fès",
+        "Route de Lalla Takerkoust",
+        "Route de Ouarzazate",
+        "Route de Safi",
+        "Route de Sidi A. Ghiat",
+        "Route de Tahanaoute",
+        "Route de Tamansourt",
+        "Sakar",
+        "Sanaoubar",
+        "Semlalia",
+        "Sidi Abbad",
+        "Sidi Abdellah Ghiat",
+        "Sidi Youssef Ben Ali",
+        "Socoma",
+        "Sofia",
+        "Targa",
+        "Victor Hugo",
+        "Zone Industrielle Sidi Ghanem"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "standing": [
+          "Economique",
+          "Haut standing",
+          "Moyen standing"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ],
+        "type_appartement": [
+          "Appartement",
+          "Duplex",
+          "Studio"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 21.0,
+          "max": 600.0,
+          "median": 75.0
+        },
+        "chambres": {
+          "min": 1.0,
+          "max": 8.0,
+          "median": 2.0
+        },
+        "salle_de_bain": {
+          "min": 1.0,
+          "max": 4.0,
+          "median": 1.0
+        },
+        "etage": {
+          "min": 0.0,
+          "max": 5.0,
+          "median": 2.0
+        },
+        "salons": {
+          "min": 0.0,
+          "max": 5.0,
+          "median": 1.0
+        },
+        "surface_habitable": {
+          "min": 21.0,
+          "max": 861.0,
+          "median": 74.0
+        },
+        "frais_syndic": {
+          "min": 0.0,
+          "max": 1960.0,
+          "median": 200.0
+        }
+      }
+    }
+  },
+  "bureaux": {
+    "categorie": "bureaux",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.4959047868406459,
+          "r2_std": 0.07761000712371219,
+          "mae_log_mean": 0.29590293253370653
+        },
+        "lgb": {
+          "r2_mean": 0.5137306863313433,
+          "r2_std": 0.0890207771922135,
+          "mae_log_mean": 0.2975728401205025
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 14.367581521739158,
+          "r2": 0.760417305744675
+        },
+        "lgb": {
+          "mdape": 17.048831085552496,
+          "r2": 0.7024190170179141
+        }
+      }
+    },
+    "best_model": "lgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "nb_etage",
+      "nb_pieces",
+      "frais_syndic",
+      "salle_de_bain",
+      "condition",
+      "disponibilite",
+      "age_du_bien",
+      "Ascenseur",
+      "Balcon",
+      "Câblage_téléphonique",
+      "Chauffage",
+      "Climatisation",
+      "Meublé",
+      "Parking",
+      "Sécurité",
+      "Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "age_du_bien"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "nb_etage",
+      "nb_pieces",
+      "frais_syndic",
+      "salle_de_bain"
+    ],
+    "equip_features": [
+      "Ascenseur",
+      "Balcon",
+      "Câblage_téléphonique",
+      "Chauffage",
+      "Climatisation",
+      "Meublé",
+      "Parking",
+      "Sécurité",
+      "Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 87,
+      "price_min": 145000.0,
+      "price_max": 2576000.0,
+      "price_median": 980000.0,
+      "localisations": [
+        "Allal El Fassi",
+        "Amerchich",
+        "Autre secteur",
+        "Av Abdelkrim El Khattabi",
+        "Av Mohammed V",
+        "Bab Doukkala",
+        "Centre Ville",
+        "Guéliz",
+        "Hay Izdihar",
+        "Hivernage",
+        "Issil",
+        "Majorelle",
+        "Massira 1",
+        "Palmeraie",
+        "Route de Casablanca",
+        "Route de Safi",
+        "Semlalia",
+        "Sidi Ghanem",
+        "Targa"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 10.0,
+          "max": 152.0,
+          "median": 64.0
+        },
+        "nb_etage": {
+          "min": 0.0,
+          "max": 5.0,
+          "median": 2.0
+        },
+        "nb_pieces": {
+          "min": 1.0,
+          "max": 8.0,
+          "median": 1.0
+        },
+        "frais_syndic": {
+          "min": 0.0,
+          "max": 1800.0,
+          "median": 150.0
+        },
+        "salle_de_bain": {
+          "min": 1.0,
+          "max": 2.0,
+          "median": 1.0
+        }
+      }
+    }
+  },
+  "magasins": {
+    "categorie": "magasins",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.6044514997993489,
+          "r2_std": 0.059045578213190314,
+          "mae_log_mean": 0.4476358748558062
+        },
+        "lgb": {
+          "r2_mean": 0.6088277933245445,
+          "r2_std": 0.06469320834282112,
+          "mae_log_mean": 0.44675868446841926
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 6.0987295828131245,
+          "r2": 0.9851979128340351
+        },
+        "lgb": {
+          "mdape": 18.278956168254997,
+          "r2": 0.8677108559033928
+        }
+      }
+    },
+    "best_model": "lgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "salle_de_bain",
+      "condition",
+      "disponibilite",
+      "age_du_bien",
+      "Ascenseur",
+      "Chauffage",
+      "Climatisation",
+      "Concierge",
+      "Cuisine_équipée",
+      "Câblage_téléphonique",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Sécurité",
+      "Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "age_du_bien"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "salle_de_bain"
+    ],
+    "equip_features": [
+      "Ascenseur",
+      "Chauffage",
+      "Climatisation",
+      "Concierge",
+      "Cuisine_équipée",
+      "Câblage_téléphonique",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Sécurité",
+      "Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 488,
+      "price_min": 80000.0,
+      "price_max": 6900000.0,
+      "price_median": 950000.0,
+      "localisations": [
+        "Afaq",
+        "Agdal",
+        "Ain Mezouar",
+        "Allal El Fassi",
+        "Amerchich",
+        "Ancienne Médina",
+        "Annakhil",
+        "Arset El Maach",
+        "Assif",
+        "Autre secteur",
+        "Av Abdelkrim El Khattabi",
+        "Av Mohammed V",
+        "Av Mohammed VI",
+        "Azli",
+        "Azzouzia",
+        "Bab Aylan",
+        "Bab Doukkala",
+        "Bd Moulay Abdellah",
+        "Bouaakkaz",
+        "Centre Ville",
+        "Daoudiate",
+        "El Ghoul",
+        "El Moukef",
+        "Es Saada",
+        "Guéliz",
+        "Hay Al Hassani",
+        "Hay Al Massar",
+        "Hay Andalous",
+        "Hay Annahda",
+        "Hay Charaf",
+        "Hay Izdihar",
+        "Hay Massira",
+        "Hay Targa",
+        "Hivernage",
+        "Iziki",
+        "Jemaa El Fna",
+        "Les Portes de Marrakech",
+        "M'Hamid",
+        "Mabrouka",
+        "Majorelle",
+        "Massar",
+        "Massira",
+        "Massira 1",
+        "Massira 2",
+        "Massira 3",
+        "Mouassine",
+        "Palmeraie",
+        "Riad Zitoun",
+        "Rmila",
+        "Rouidat",
+        "Route d'Agadir - Essaouira",
+        "Route d'Amezmiz",
+        "Route d'Ourika",
+        "Route de Casablanca",
+        "Route de Fès",
+        "Route de Ouarzazate",
+        "Route de Safi",
+        "Route de Tamansourt",
+        "Sakar",
+        "Sanaoubar",
+        "Semlalia",
+        "Sidi Ben Slimane El Jazouli",
+        "Sidi Ghanem",
+        "Sidi Mimoun",
+        "Sidi Youssef Ben Ali",
+        "Socoma",
+        "Sofia",
+        "Targa",
+        "Victor Hugo",
+        "Zone Industrielle Sidi Ghanem"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 4.0,
+          "max": 10000.0,
+          "median": 51.0
+        },
+        "salle_de_bain": {
+          "min": 0.0,
+          "max": 6.0,
+          "median": 1.0
+        }
+      }
+    }
+  },
+  "maisons": {
+    "categorie": "maisons",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.6457838339871852,
+          "r2_std": 0.05220810541035873,
+          "mae_log_mean": 0.3384766269738292
+        },
+        "lgb": {
+          "r2_mean": 0.6347015458650688,
+          "r2_std": 0.04765088090774828,
+          "mae_log_mean": 0.3517133979934404
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 3.127933333333363,
+          "r2": 0.9855412329145146
+        },
+        "lgb": {
+          "mdape": 11.302131174979598,
+          "r2": 0.8981940059767028
+        }
+      }
+    },
+    "best_model": "xgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "nombre_detage",
+      "salons",
+      "surface_habitable",
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien",
+      "equip_Balcon",
+      "equip_Chauffage",
+      "equip_Climatisation",
+      "equip_Cuisine_équipée",
+      "equip_Garage",
+      "equip_Jardin",
+      "equip_Meublé",
+      "equip_Parking",
+      "equip_Piscine",
+      "equip_Sécurité",
+      "equip_Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "nombre_detage",
+      "salons",
+      "surface_habitable"
+    ],
+    "equip_features": [
+      "equip_Balcon",
+      "equip_Chauffage",
+      "equip_Climatisation",
+      "equip_Cuisine_équipée",
+      "equip_Garage",
+      "equip_Jardin",
+      "equip_Meublé",
+      "equip_Parking",
+      "equip_Piscine",
+      "equip_Sécurité",
+      "equip_Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 687,
+      "price_min": 80000.0,
+      "price_max": 4800000.0,
+      "price_median": 1400000.0,
+      "localisations": [
+        "Afaq",
+        "Agdal",
+        "Ain Mezouar",
+        "Akioud",
+        "Allal El Fassi",
+        "Amerchich",
+        "Ancienne Médina",
+        "Annakhil",
+        "Arset El Houta",
+        "Assif",
+        "Assouel",
+        "Autre secteur",
+        "Av Abdelkrim El Khattabi",
+        "Av Mohammed VI",
+        "Azli",
+        "Azzouzia",
+        "Bab Aylan",
+        "Bab Doukkala",
+        "Bab Ghmat",
+        "Bab Lhmar",
+        "Bd Moulay Abdellah",
+        "Berrima",
+        "Bouaakkaz",
+        "Centre Ville",
+        "Daoudiate",
+        "Es Saada",
+        "Essebtiyen",
+        "Guéliz",
+        "Hay Al Bahja",
+        "Hay Al Haouz",
+        "Hay Al Hassani",
+        "Hay Al Massar",
+        "Hay Annahda",
+        "Hay Charaf",
+        "Hay Izdihar",
+        "Hay Massira",
+        "Hay Targa",
+        "Inara",
+        "Issil",
+        "Iziki",
+        "Jemaa El Fna",
+        "Jnan ben chagra",
+        "Kennaria",
+        "Les Portes de Marrakech",
+        "M Hamid",
+        "M'Hamid",
+        "Mabrouka",
+        "Marrakech",
+        "Massar",
+        "Massira",
+        "Massira 1",
+        "Massira 2",
+        "Massira 3",
+        "Michouar",
+        "Oued Ourika",
+        "Oued Tensift",
+        "Riad Zitoun",
+        "Rouidat",
+        "Route d'Agadir - Essaouira",
+        "Route d'Amezmiz",
+        "Route d'Ourika",
+        "Route de Casablanca",
+        "Route de Fès",
+        "Route de Lalla Takerkoust",
+        "Route de Ouarzazate",
+        "Route de Safi",
+        "Route de Sidi A. Ghiat",
+        "Route de Tahanaoute",
+        "Route de Tamansourt",
+        "Sakar",
+        "Sanaoubar",
+        "Semlalia",
+        "Sidi Abbad",
+        "Sidi Abdellah Ghiat",
+        "Sidi Ben Slimane El Jazouli",
+        "Sidi Bou Amar",
+        "Sidi Mansour",
+        "Sidi Youssef Ben Ali",
+        "Socoma",
+        "Sofia",
+        "Targa",
+        "Zaouia Sidi Ghalem"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "standing": [
+          "Economique",
+          "Haut standing",
+          "Moyen standing"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 30.0,
+          "max": 5000.0,
+          "median": 102.0
+        },
+        "chambres": {
+          "min": 3.0,
+          "max": 20.0,
+          "median": 4.0
+        },
+        "salle_de_bain": {
+          "min": 1.0,
+          "max": 8.0,
+          "median": 2.0
+        },
+        "nombre_detage": {
+          "min": 0.0,
+          "max": 4.0,
+          "median": 2.0
+        },
+        "salons": {
+          "min": 1.0,
+          "max": 8.0,
+          "median": 2.0
+        },
+        "surface_habitable": {
+          "min": 35.0,
+          "max": 510.0,
+          "median": 100.0
+        }
+      }
+    }
+  },
+  "riads": {
+    "categorie": "riads",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.5720148622541913,
+          "r2_std": 0.05854329040329975,
+          "mae_log_mean": 0.2887018390565311
+        },
+        "lgb": {
+          "r2_mean": 0.5521060650121251,
+          "r2_std": 0.05236363461614808,
+          "mae_log_mean": 0.2942538958488289
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 8.636324242424276,
+          "r2": 0.9218364319928527
+        },
+        "lgb": {
+          "mdape": 10.350030377813898,
+          "r2": 0.8932091041224971
+        }
+      }
+    },
+    "best_model": "xgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "nb_etages",
+      "salons",
+      "surface_habitable",
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien",
+      "Balcon",
+      "Chauffage",
+      "Climatisation",
+      "Cuisine_équipée",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Piscine",
+      "Sécurité",
+      "Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "chambres",
+      "salle_de_bain",
+      "nb_etages",
+      "salons",
+      "surface_habitable"
+    ],
+    "equip_features": [
+      "Balcon",
+      "Chauffage",
+      "Climatisation",
+      "Cuisine_équipée",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Piscine",
+      "Sécurité",
+      "Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 286,
+      "price_min": 640000.0,
+      "price_max": 13400000.0,
+      "price_median": 3200000.0,
+      "localisations": [
+        "Ain Mezouar",
+        "Amerchich",
+        "Ancienne Médina",
+        "Arset El Houta",
+        "Arset El Maach",
+        "Arset Ihiri",
+        "Assouel",
+        "Autre secteur",
+        "Av Mohammed VI",
+        "Bab Aylan",
+        "Bab Doukkala",
+        "Bab El Khemis",
+        "Bab Ghmat",
+        "Bab Lhmar",
+        "Ben Saleh",
+        "Berrima",
+        "Centre Ville",
+        "Daoudiate",
+        "El Moukef",
+        "Es Saada",
+        "Essebtiyen",
+        "Guéliz",
+        "Hay Izdihar",
+        "Jemaa El Fna",
+        "Jnan ben chagra",
+        "Jnane Laafia",
+        "Kaa El Machraa",
+        "Kaat Ben Nahid",
+        "Kasbah",
+        "Kechich",
+        "Kennaria",
+        "Ksibat Nhas",
+        "Les Portes de Marrakech",
+        "Michouar",
+        "Moulay Lyazid",
+        "Palmeraie",
+        "Rahba Kedima",
+        "Riad Zitoun",
+        "Rmila",
+        "Route d'Ourika",
+        "Route de Fès",
+        "Route de Sidi A. Ghiat",
+        "Route de Tahanaoute",
+        "Semlalia",
+        "Sidi Ben Slimane El Jazouli",
+        "Sidi Mimoun",
+        "Sidi Youssef Ben Ali",
+        "Zaouia Sidi Ghalem"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "standing": [
+          "Economique",
+          "Haut standing",
+          "Moyen standing"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 48.0,
+          "max": 10000.0,
+          "median": 150.0
+        },
+        "chambres": {
+          "min": 3.0,
+          "max": 14.0,
+          "median": 6.0
+        },
+        "salle_de_bain": {
+          "min": 1.0,
+          "max": 10.0,
+          "median": 3.0
+        },
+        "nb_etages": {
+          "min": 0.0,
+          "max": 6.0,
+          "median": 2.0
+        },
+        "salons": {
+          "min": 1.0,
+          "max": 10.0,
+          "median": 2.0
+        },
+        "surface_habitable": {
+          "min": 48.0,
+          "max": 2000.0,
+          "median": 150.0
+        }
+      }
+    }
+  },
+  "terrains": {
+    "categorie": "terrains",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.3977793012213917,
+          "r2_std": 0.070865421171161,
+          "mae_log_mean": 0.5679149641846722
+        },
+        "lgb": {
+          "r2_mean": 0.42389931376142426,
+          "r2_std": 0.060274447671761724,
+          "mae_log_mean": 0.5690195039628233
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 18.034224999999974,
+          "r2": 0.7744992507548799
+        },
+        "lgb": {
+          "mdape": 29.17745562700842,
+          "r2": 0.5542718034196938
+        }
+      }
+    },
+    "best_model": "lgb",
+    "feature_cols": [
+      "surface_m2_clean",
+      "distance_route m",
+      "zoning",
+      "equip_Guiche",
+      "equip_Loti",
+      "equip_Melkia",
+      "equip_Soulaliya",
+      "equip_Tanazul",
+      "equip_Titré",
+      "equip_Viabilisé",
+      "localisation"
+    ],
+    "cat_features": [
+      "zoning"
+    ],
+    "num_features": [
+      "surface_m2_clean",
+      "distance_route m"
+    ],
+    "equip_features": [
+      "equip_Guiche",
+      "equip_Loti",
+      "equip_Melkia",
+      "equip_Soulaliya",
+      "equip_Tanazul",
+      "equip_Titré",
+      "equip_Viabilisé"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 1141,
+      "price_min": 40000.0,
+      "price_max": 10500000.0,
+      "price_median": 1200000.0,
+      "localisations": [
+        "Afaq",
+        "Agdal",
+        "Ain Mezouar",
+        "Allal El Fassi",
+        "Amelkis",
+        "Amerchich",
+        "Ancienne Médina",
+        "Annakhil",
+        "Arset Ben Chebli",
+        "Arset Moulay Bouaazza",
+        "Assif",
+        "Autre Secteur",
+        "Av Mohammed VI",
+        "Av Mohammed Vi",
+        "Azli",
+        "Azzouzia",
+        "Bab Atlas",
+        "Bab Doukkala",
+        "Bab Ghmat",
+        "Bouaakkaz",
+        "Centre Ville",
+        "El Attaouia",
+        "Es Saada",
+        "Guéliz",
+        "Hay Al Haouz",
+        "Hay Al Massar",
+        "Hay Charaf",
+        "Hay Izdihar",
+        "Hay Targa",
+        "Hivernage",
+        "Iziki",
+        "Jawhar",
+        "Jemaa El Fna",
+        "Jnane Laafia",
+        "Lac Takerkoust",
+        "Les Portes De Marrakech",
+        "M Hamid",
+        "M'Hamid",
+        "Mabrouka",
+        "Massar",
+        "Massira 1",
+        "Massira 3",
+        "Oued Ourika",
+        "Oued Tensift",
+        "Oulad Said",
+        "Palmeraie",
+        "Route D Agadir   Essaouira",
+        "Route D Amezmiz",
+        "Route D Ourika",
+        "Route De Casablanca",
+        "Route De Fès",
+        "Route De Lalla Takerkoust",
+        "Route De Ouarzazate",
+        "Route De Safi",
+        "Route De Sidi A. Ghiat",
+        "Route De Tahanaoute",
+        "Route De Tamansourt",
+        "Route d'Agadir - Essaouira",
+        "Route d'Amezmiz",
+        "Route d'Ourika",
+        "Route de Casablanca",
+        "Route de Fès",
+        "Route de Ouarzazate",
+        "Route de Sidi A. Ghiat",
+        "Route de Tahanaoute",
+        "Route de Tamansourt",
+        "Semlalia",
+        "Sidi Abbad",
+        "Sidi Abdellah Ghiat",
+        "Sidi Ghanem",
+        "Sidi Youssef Ben Ali",
+        "Socoma",
+        "Sofia",
+        "Targa",
+        "Zone Industrielle Sidi Ghanem"
+      ],
+      "cat_values": {
+        "zoning": [
+          "Agricole",
+          "Immeuble",
+          "Industriel",
+          "Maison",
+          "Service public",
+          "Villa",
+          "maison"
+        ]
+      },
+      "num_ranges": {
+        "surface_m2_clean": {
+          "min": 40.0,
+          "max": 390000.0,
+          "median": 1130.0
+        },
+        "distance_route m": {
+          "min": 0.0,
+          "max": 5000.0,
+          "median": 0.0
+        }
+      }
+    }
+  },
+  "villas": {
+    "categorie": "villas",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.6724342573902662,
+          "r2_std": 0.03062252161961241,
+          "mae_log_mean": 0.2410400471708793
+        },
+        "lgb": {
+          "r2_mean": 0.6629333670164967,
+          "r2_std": 0.041793074556718816,
+          "mae_log_mean": 0.24661498084945505
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 4.51604000000002,
+          "r2": 0.9689410857856054
+        },
+        "lgb": {
+          "mdape": 9.083548165983718,
+          "r2": 0.8812690800499601
+        }
+      }
+    },
+    "best_model": "xgb",
+    "feature_cols": [
+      "surface_terrain",
+      "chambres",
+      "salle_de_bain",
+      "nb_etages",
+      "salons",
+      "surface_habitable",
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien",
+      "Ascenseur",
+      "Balcon",
+      "Chauffage",
+      "Climatisation",
+      "Cuisine_équipée",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Piscine",
+      "Sécurité",
+      "Terrasse",
+      "localisation"
+    ],
+    "cat_features": [
+      "condition",
+      "disponibilite",
+      "standing",
+      "age_du_bien"
+    ],
+    "num_features": [
+      "surface_terrain",
+      "chambres",
+      "salle_de_bain",
+      "nb_etages",
+      "salons",
+      "surface_habitable"
+    ],
+    "equip_features": [
+      "Ascenseur",
+      "Balcon",
+      "Chauffage",
+      "Climatisation",
+      "Cuisine_équipée",
+      "Garage",
+      "Jardin",
+      "Meublé",
+      "Parking",
+      "Piscine",
+      "Sécurité",
+      "Terrasse"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 1265,
+      "price_min": 430000.0,
+      "price_max": 12000000.0,
+      "price_median": 3900000.0,
+      "localisations": [
+        "Afaq",
+        "Agafay",
+        "Agdal",
+        "Ain Mezouar",
+        "Allal El Fassi",
+        "Amelkis",
+        "Amerchich",
+        "Annakhil",
+        "Assif",
+        "Autre secteur",
+        "Av Abdelkrim El Khattabi",
+        "Av Mohammed V",
+        "Av Mohammed VI",
+        "Azli",
+        "Azzouzia",
+        "Bab Atlas",
+        "Bab Ighli",
+        "Bd Moulay Abdellah",
+        "Bouaakkaz",
+        "Centre Ville",
+        "Chouiter",
+        "Daoudiate",
+        "Es Saada",
+        "Ghmat",
+        "Guéliz",
+        "Hay Al Haouz",
+        "Hay Al Hassani",
+        "Hay Al Massar",
+        "Hay Andalous",
+        "Hay El Bahja",
+        "Hay Izdihar",
+        "Hay Massira",
+        "Hivernage",
+        "Issil",
+        "Jawhar",
+        "Koudiat Laabid",
+        "Lac Takerkoust",
+        "Les Portes de Marrakech",
+        "M'Hamid",
+        "Mabrouka",
+        "Majorelle",
+        "Masmoudi",
+        "Massira 2",
+        "Massira 3",
+        "Oued Ourika",
+        "Palmeraie",
+        "Prestigia",
+        "Rmila",
+        "Rouidat",
+        "Route De Fès",
+        "Route d'Agadir - Essaouira",
+        "Route d'Amezmiz",
+        "Route d'Ourika",
+        "Route de Casablanca",
+        "Route de Fès",
+        "Route de Lalla Takerkoust",
+        "Route de Ouarzazate",
+        "Route de Safi",
+        "Route de Sidi A. Ghiat",
+        "Route de Tahanaoute",
+        "Route de Tamansourt",
+        "Semlalia",
+        "Sidi Abbad",
+        "Sidi Abdellah Ghiat",
+        "Sidi Youssef Ben Ali",
+        "Sofia",
+        "Targa",
+        "Zaouia Sidi Ghalem"
+      ],
+      "cat_values": {
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "disponibilite": [
+          "+4 mois",
+          "2 mois",
+          "3 mois",
+          "Immédiate"
+        ],
+        "standing": [
+          "Economique",
+          "Haut standing",
+          "Moyen standing"
+        ],
+        "age_du_bien": [
+          "1-5 ans",
+          "11-20 ans",
+          "21+ ans",
+          "6-10 ans",
+          "Moins de 1 an"
+        ]
+      },
+      "num_ranges": {
+        "surface_terrain": {
+          "min": 71.0,
+          "max": 34852.0,
+          "median": 425.0
+        },
+        "chambres": {
+          "min": 3.0,
+          "max": 17.0,
+          "median": 4.0
+        },
+        "salle_de_bain": {
+          "min": 1.0,
+          "max": 15.0,
+          "median": 4.0
+        },
+        "nb_etages": {
+          "min": 0.0,
+          "max": 4.0,
+          "median": 1.0
+        },
+        "salons": {
+          "min": 1.0,
+          "max": 8.0,
+          "median": 2.0
+        },
+        "surface_habitable": {
+          "min": 76.0,
+          "max": 3500.0,
+          "median": 283.0
+        }
+      }
+    }
+  },
+  "maisons_dhotes": {
+    "categorie": "maisons_dhotes",
+    "metrics": {
+      "cv": {
+        "xgb": {
+          "r2_mean": 0.7120028387631617,
+          "r2_std": 0.03204396301844191,
+          "mae_log_mean": 0.3335210901586358
+        },
+        "lgb": {
+          "r2_mean": 0.7076428152973259,
+          "r2_std": 0.040371527363437416,
+          "mae_log_mean": 0.33547236038628925
+        }
+      },
+      "final": {
+        "xgb": {
+          "mdape": 6.859698275862069,
+          "r2": 0.9692353531107752
+        },
+        "lgb": {
+          "mdape": 9.437140612954115,
+          "r2": 0.9517919389255503
+        }
+      }
+    },
+    "best_model": "xgb",
+    "feature_cols": [
+      "surface_habitable",
+      "surface_terrain",
+      "chambres",
+      "salles_bain",
+      "salons",
+      "etages",
+      "type_bien",
+      "condition",
+      "Classement touristique",
+      "Piscine",
+      "Piscine chauffée",
+      "Hammam",
+      "Spa / Sauna",
+      "Jardin",
+      "Oliviers",
+      "Terrasse",
+      "Balcon",
+      "Patio",
+      "Garage & Parking",
+      "Climatisation",
+      "Chauffage",
+      "Wi-Fi",
+      "Cuisine équipée",
+      "Cheminée",
+      "Bar",
+      "Restaurant",
+      "Salle à manger",
+      "Meublé",
+      "Télévision",
+      "Salle de réception",
+      "Salle de yoga",
+      "Gardien / Sécurité",
+      "Logement du personnel",
+      "Panneaux solaires",
+      "Puits",
+      "Arrosage automatique",
+      "Tente",
+      "Fontaine",
+      "Terrain de sport",
+      "Fitness / Salle de sport",
+      "Ascenseur",
+      "Buanderie",
+      "Vue panoramique",
+      "Proche Montagne",
+      "Proche Golf",
+      "Proche Gare",
+      "Proche aéroport",
+      "Dressing",
+      "Local technique",
+      "localisation"
+    ],
+    "cat_features": [
+      "type_bien",
+      "condition",
+      "Classement touristique"
+    ],
+    "num_features": [
+      "surface_habitable",
+      "surface_terrain",
+      "chambres",
+      "salles_bain",
+      "salons",
+      "etages"
+    ],
+    "equip_features": [
+      "Piscine",
+      "Piscine chauffée",
+      "Hammam",
+      "Spa / Sauna",
+      "Jardin",
+      "Oliviers",
+      "Terrasse",
+      "Balcon",
+      "Patio",
+      "Garage & Parking",
+      "Climatisation",
+      "Chauffage",
+      "Wi-Fi",
+      "Cuisine équipée",
+      "Cheminée",
+      "Bar",
+      "Restaurant",
+      "Salle à manger",
+      "Meublé",
+      "Télévision",
+      "Salle de réception",
+      "Salle de yoga",
+      "Gardien / Sécurité",
+      "Logement du personnel",
+      "Panneaux solaires",
+      "Puits",
+      "Arrosage automatique",
+      "Tente",
+      "Fontaine",
+      "Terrain de sport",
+      "Fitness / Salle de sport",
+      "Ascenseur",
+      "Buanderie",
+      "Vue panoramique",
+      "Proche Montagne",
+      "Proche Golf",
+      "Proche Gare",
+      "Proche aéroport",
+      "Dressing",
+      "Local technique"
+    ],
+    "has_localisation": true,
+    "stats": {
+      "n_rows_trained": 151,
+      "price_min": 930000.0,
+      "price_max": 44940000.0,
+      "price_median": 8800000.0,
+      "localisations": [
+        "Amelkis",
+        "Amezmiz",
+        "Ancienne Médina",
+        "Autre secteur",
+        "Ben Saleh",
+        "Bouaakkaz",
+        "Dar el Bacha",
+        "Jemaa El Fna",
+        "Kasbah ",
+        "Lac Takerkoust",
+        "Les portes de Marrakech\n",
+        "Majorelle",
+        "Massira 1",
+        "Oued Ourika",
+        "Ouirgane",
+        "Palmeraie",
+        "Palmeraie ",
+        "Rahba Kedima",
+        "Riad Laarousse",
+        "Route d'Agadir-Essaouira",
+        "Route d'Ourika",
+        "Route d'amezmiz",
+        "Route de Casablanca",
+        "Route de Casablanca ",
+        "Route de Fès",
+        "Route de Lalla Takerkoust",
+        "Route de Ouarzazate",
+        "Route de Tahanaoute",
+        "Tahanaout",
+        "Targa",
+        "route de Lalla Takerkoust"
+      ],
+      "cat_values": {
+        "type_bien": [
+          "Hôtel",
+          "Maison d'Hôtes",
+          "Maison d'hôtes"
+        ],
+        "condition": [
+          "Bon état",
+          "Neuf",
+          "à rénover"
+        ],
+        "Classement touristique": [
+          "Economique",
+          "Haut standing",
+          "Moyen standing"
+        ]
+      },
+      "num_ranges": {
+        "surface_habitable": {
+          "min": 70.0,
+          "max": 6200.0,
+          "median": 487.0
+        },
+        "surface_terrain": {
+          "min": 70.0,
+          "max": 100000.0,
+          "median": 626.0
+        },
+        "chambres": {
+          "min": 2.0,
+          "max": 51.0,
+          "median": 7.0
+        },
+        "salles_bain": {
+          "min": 1.0,
+          "max": 46.0,
+          "median": 7.0
+        },
+        "salons": {
+          "min": 0.0,
+          "max": 12.0,
+          "median": 2.0
+        },
+        "etages": {
+          "min": 0.0,
+          "max": 4.0,
+          "median": 1.0
+        }
+      }
+    }
+  }
+}
