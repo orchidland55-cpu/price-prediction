@@ -1,0 +1,1767 @@
+{
+  "total_annonces": 7180,
+  "par_categorie": {
+    "appartements": {
+      "n_total_annonces": 3075,
+      "prix_m2": {
+        "moyen": 13522,
+        "median": 11930,
+        "min": 1984,
+        "max": 44079
+      },
+      "prix": {
+        "moyen": 1101106,
+        "median": 950000
+      },
+      "quartiers": [
+        {
+          "quartier": "Guéliz",
+          "n_annonces": 586,
+          "prix_m2_moyen": 19345,
+          "prix_m2_median": 18605,
+          "prix_moyen": 1509047,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "M'Hamid",
+          "n_annonces": 264,
+          "prix_m2_moyen": 7636,
+          "prix_m2_median": 7500,
+          "prix_moyen": 569657,
+          "prix_median": 520000
+        },
+        {
+          "quartier": "Route de Casablanca",
+          "n_annonces": 198,
+          "prix_m2_moyen": 13959,
+          "prix_m2_median": 13500,
+          "prix_moyen": 1141152,
+          "prix_median": 1060000
+        },
+        {
+          "quartier": "Hay Izdihar",
+          "n_annonces": 167,
+          "prix_m2_moyen": 11580,
+          "prix_m2_median": 11930,
+          "prix_moyen": 877445,
+          "prix_median": 800000
+        },
+        {
+          "quartier": "Mabrouka",
+          "n_annonces": 166,
+          "prix_m2_moyen": 10090,
+          "prix_m2_median": 9444,
+          "prix_moyen": 736524,
+          "prix_median": 650000
+        },
+        {
+          "quartier": "Allal El Fassi",
+          "n_annonces": 115,
+          "prix_m2_moyen": 11122,
+          "prix_m2_median": 10989,
+          "prix_moyen": 1010000,
+          "prix_median": 970000
+        },
+        {
+          "quartier": "Hay Charaf",
+          "n_annonces": 95,
+          "prix_m2_moyen": 11056,
+          "prix_m2_median": 10825,
+          "prix_moyen": 951853,
+          "prix_median": 900000
+        },
+        {
+          "quartier": "Semlalia",
+          "n_annonces": 87,
+          "prix_m2_moyen": 14959,
+          "prix_m2_median": 15579,
+          "prix_moyen": 1400011,
+          "prix_median": 1430000
+        },
+        {
+          "quartier": "Route de Safi",
+          "n_annonces": 78,
+          "prix_m2_moyen": 13188,
+          "prix_m2_median": 12774,
+          "prix_moyen": 1020705,
+          "prix_median": 980000
+        },
+        {
+          "quartier": "Targa",
+          "n_annonces": 75,
+          "prix_m2_moyen": 11321,
+          "prix_m2_median": 10333,
+          "prix_moyen": 926020,
+          "prix_median": 760000
+        },
+        {
+          "quartier": "Les Portes de Marrakech",
+          "n_annonces": 71,
+          "prix_m2_moyen": 7129,
+          "prix_m2_median": 7018,
+          "prix_moyen": 486549,
+          "prix_median": 460000
+        },
+        {
+          "quartier": "Victor Hugo",
+          "n_annonces": 68,
+          "prix_m2_moyen": 19307,
+          "prix_m2_median": 19384,
+          "prix_moyen": 1597971,
+          "prix_median": 1495000
+        },
+        {
+          "quartier": "Hivernage",
+          "n_annonces": 67,
+          "prix_m2_moyen": 20620,
+          "prix_m2_median": 19792,
+          "prix_moyen": 1620300,
+          "prix_median": 1450000
+        },
+        {
+          "quartier": "Agdal",
+          "n_annonces": 63,
+          "prix_m2_moyen": 24631,
+          "prix_m2_median": 25269,
+          "prix_moyen": 2126571,
+          "prix_median": 2300000
+        },
+        {
+          "quartier": "Azzouzia",
+          "n_annonces": 58,
+          "prix_m2_moyen": 7711,
+          "prix_m2_median": 7302,
+          "prix_moyen": 575867,
+          "prix_median": 500000
+        },
+        {
+          "quartier": "Es Saada",
+          "n_annonces": 56,
+          "prix_m2_moyen": 8341,
+          "prix_m2_median": 7812,
+          "prix_moyen": 522500,
+          "prix_median": 450000
+        },
+        {
+          "quartier": "Av Mohammed VI",
+          "n_annonces": 52,
+          "prix_m2_moyen": 24509,
+          "prix_m2_median": 25098,
+          "prix_moyen": 2236183,
+          "prix_median": 2300000
+        },
+        {
+          "quartier": "Autre secteur",
+          "n_annonces": 52,
+          "prix_m2_moyen": 9758,
+          "prix_m2_median": 8941,
+          "prix_moyen": 742067,
+          "prix_median": 600000
+        },
+        {
+          "quartier": "Ain Mezouar",
+          "n_annonces": 48,
+          "prix_m2_moyen": 12158,
+          "prix_m2_median": 10972,
+          "prix_moyen": 975292,
+          "prix_median": 790000
+        },
+        {
+          "quartier": "Av Abdelkrim El Khattabi",
+          "n_annonces": 48,
+          "prix_m2_moyen": 15867,
+          "prix_m2_median": 15192,
+          "prix_moyen": 1432348,
+          "prix_median": 1300000
+        },
+        {
+          "quartier": "Route d'Amezmiz",
+          "n_annonces": 43,
+          "prix_m2_moyen": 12665,
+          "prix_m2_median": 10000,
+          "prix_moyen": 893233,
+          "prix_median": 698500
+        },
+        {
+          "quartier": "Route de Tamansourt",
+          "n_annonces": 41,
+          "prix_m2_moyen": 5249,
+          "prix_m2_median": 5000,
+          "prix_moyen": 348219,
+          "prix_median": 300000
+        },
+        {
+          "quartier": "Majorelle",
+          "n_annonces": 33,
+          "prix_m2_moyen": 15965,
+          "prix_m2_median": 16333,
+          "prix_moyen": 1384967,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "Palmeraie",
+          "n_annonces": 32,
+          "prix_m2_moyen": 15553,
+          "prix_m2_median": 16348,
+          "prix_moyen": 1825312,
+          "prix_median": 1750000
+        },
+        {
+          "quartier": "Hay Targa",
+          "n_annonces": 32,
+          "prix_m2_moyen": 9838,
+          "prix_m2_median": 10000,
+          "prix_moyen": 717562,
+          "prix_median": 580000
+        },
+        {
+          "quartier": "Massira 1",
+          "n_annonces": 32,
+          "prix_m2_moyen": 8080,
+          "prix_m2_median": 8188,
+          "prix_moyen": 760219,
+          "prix_median": 776750
+        },
+        {
+          "quartier": "Hay Massira",
+          "n_annonces": 31,
+          "prix_m2_moyen": 7884,
+          "prix_m2_median": 7877,
+          "prix_moyen": 778065,
+          "prix_median": 800000
+        },
+        {
+          "quartier": "Daoudiate",
+          "n_annonces": 31,
+          "prix_m2_moyen": 10582,
+          "prix_m2_median": 10000,
+          "prix_moyen": 1022903,
+          "prix_median": 1050000
+        },
+        {
+          "quartier": "Route de Ouarzazate",
+          "n_annonces": 24,
+          "prix_m2_moyen": 7441,
+          "prix_m2_median": 5020,
+          "prix_moyen": 760208,
+          "prix_median": 280000
+        },
+        {
+          "quartier": "Amerchich",
+          "n_annonces": 23,
+          "prix_m2_moyen": 10589,
+          "prix_m2_median": 9545,
+          "prix_moyen": 1075652,
+          "prix_median": 1100000
+        },
+        {
+          "quartier": "Centre Ville",
+          "n_annonces": 23,
+          "prix_m2_moyen": 16982,
+          "prix_m2_median": 18333,
+          "prix_moyen": 1336957,
+          "prix_median": 1250000
+        },
+        {
+          "quartier": "Route de Tahanaoute",
+          "n_annonces": 22,
+          "prix_m2_moyen": 20478,
+          "prix_m2_median": 22291,
+          "prix_moyen": 1605909,
+          "prix_median": 1650000
+        },
+        {
+          "quartier": "Annakhil",
+          "n_annonces": 21,
+          "prix_m2_moyen": 13497,
+          "prix_m2_median": 13448,
+          "prix_moyen": 1461048,
+          "prix_median": 1500000
+        },
+        {
+          "quartier": "Socoma",
+          "n_annonces": 21,
+          "prix_m2_moyen": 8006,
+          "prix_m2_median": 8036,
+          "prix_moyen": 584286,
+          "prix_median": 540000
+        },
+        {
+          "quartier": "Route de Fès",
+          "n_annonces": 20,
+          "prix_m2_moyen": 11973,
+          "prix_m2_median": 10787,
+          "prix_moyen": 1447750,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "Bouaakkaz",
+          "n_annonces": 19,
+          "prix_m2_moyen": 11143,
+          "prix_m2_median": 10000,
+          "prix_moyen": 820076,
+          "prix_median": 768000
+        },
+        {
+          "quartier": "Azli",
+          "n_annonces": 19,
+          "prix_m2_moyen": 9210,
+          "prix_m2_median": 8451,
+          "prix_moyen": 706842,
+          "prix_median": 600000
+        },
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 19,
+          "prix_m2_moyen": 11834,
+          "prix_m2_median": 9146,
+          "prix_moyen": 971579,
+          "prix_median": 770000
+        },
+        {
+          "quartier": "Bd Moulay Abdellah",
+          "n_annonces": 14,
+          "prix_m2_moyen": 12258,
+          "prix_m2_median": 10538,
+          "prix_moyen": 1055929,
+          "prix_median": 890000
+        },
+        {
+          "quartier": "Massira 3",
+          "n_annonces": 12,
+          "prix_m2_moyen": 6618,
+          "prix_m2_median": 6500,
+          "prix_moyen": 491250,
+          "prix_median": 460000
+        },
+        {
+          "quartier": "Massira 2",
+          "n_annonces": 12,
+          "prix_m2_moyen": 8783,
+          "prix_m2_median": 8542,
+          "prix_moyen": 645833,
+          "prix_median": 680000
+        },
+        {
+          "quartier": "Prestigia",
+          "n_annonces": 11,
+          "prix_m2_moyen": 27718,
+          "prix_m2_median": 28750,
+          "prix_moyen": 2220000,
+          "prix_median": 2350000
+        },
+        {
+          "quartier": "Sanaoubar",
+          "n_annonces": 11,
+          "prix_m2_moyen": 11838,
+          "prix_m2_median": 11963,
+          "prix_moyen": 941273,
+          "prix_median": 900000
+        },
+        {
+          "quartier": "Afaq",
+          "n_annonces": 10,
+          "prix_m2_moyen": 8603,
+          "prix_m2_median": 6909,
+          "prix_moyen": 776264,
+          "prix_median": 530000
+        },
+        {
+          "quartier": "Bab Doukkala",
+          "n_annonces": 9,
+          "prix_m2_moyen": 12622,
+          "prix_m2_median": 13043,
+          "prix_moyen": 1173333,
+          "prix_median": 1200000
+        },
+        {
+          "quartier": "Sidi Abbad",
+          "n_annonces": 9,
+          "prix_m2_moyen": 12705,
+          "prix_m2_median": 11600,
+          "prix_moyen": 1175556,
+          "prix_median": 1100000
+        },
+        {
+          "quartier": "Route d'Agadir - Essaouira",
+          "n_annonces": 8,
+          "prix_m2_moyen": 8081,
+          "prix_m2_median": 6868,
+          "prix_moyen": 495875,
+          "prix_median": 460000
+        },
+        {
+          "quartier": "Akioud",
+          "n_annonces": 7,
+          "prix_m2_moyen": 8349,
+          "prix_m2_median": 8545,
+          "prix_moyen": 552857,
+          "prix_median": 480000
+        },
+        {
+          "quartier": "Assif",
+          "n_annonces": 7,
+          "prix_m2_moyen": 11773,
+          "prix_m2_median": 12000,
+          "prix_moyen": 900857,
+          "prix_median": 850000
+        },
+        {
+          "quartier": "Rouidat",
+          "n_annonces": 7,
+          "prix_m2_moyen": 9184,
+          "prix_m2_median": 8889,
+          "prix_moyen": 968571,
+          "prix_median": 940000
+        },
+        {
+          "quartier": "Issil",
+          "n_annonces": 6,
+          "prix_m2_moyen": 11079,
+          "prix_m2_median": 10406,
+          "prix_moyen": 1100000,
+          "prix_median": 1135000
+        },
+        {
+          "quartier": "Av Mohammed V",
+          "n_annonces": 5,
+          "prix_m2_moyen": 21340,
+          "prix_m2_median": 23333,
+          "prix_moyen": 1730000,
+          "prix_median": 2200000
+        },
+        {
+          "quartier": "Hay Al Massar",
+          "n_annonces": 5,
+          "prix_m2_moyen": 8297,
+          "prix_m2_median": 9000,
+          "prix_moyen": 860000,
+          "prix_median": 750000
+        }
+      ]
+    },
+    "bureaux": {
+      "n_total_annonces": 87,
+      "prix_m2": {
+        "moyen": 15967,
+        "median": 15909,
+        "min": 2344,
+        "max": 30000
+      },
+      "prix": {
+        "moyen": 1087001,
+        "median": 980000
+      },
+      "quartiers": [
+        {
+          "quartier": "Guéliz",
+          "n_annonces": 39,
+          "prix_m2_moyen": 17406,
+          "prix_m2_median": 17419,
+          "prix_moyen": 1221513,
+          "prix_median": 1080000
+        },
+        {
+          "quartier": "Allal El Fassi",
+          "n_annonces": 8,
+          "prix_m2_moyen": 14568,
+          "prix_m2_median": 13580,
+          "prix_moyen": 944562,
+          "prix_median": 1029250
+        },
+        {
+          "quartier": "Massira 1",
+          "n_annonces": 8,
+          "prix_m2_moyen": 11717,
+          "prix_m2_median": 12857,
+          "prix_moyen": 733750,
+          "prix_median": 630000
+        }
+      ]
+    },
+    "magasins": {
+      "n_total_annonces": 488,
+      "prix_m2": {
+        "moyen": 22030,
+        "median": 20000,
+        "min": 200,
+        "max": 171429
+      },
+      "prix": {
+        "moyen": 1585646,
+        "median": 950000
+      },
+      "quartiers": [
+        {
+          "quartier": "Guéliz",
+          "n_annonces": 54,
+          "prix_m2_moyen": 20439,
+          "prix_m2_median": 20318,
+          "prix_moyen": 2390024,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "M'Hamid",
+          "n_annonces": 54,
+          "prix_m2_moyen": 19510,
+          "prix_m2_median": 18386,
+          "prix_moyen": 816241,
+          "prix_median": 650000
+        },
+        {
+          "quartier": "Hay Izdihar",
+          "n_annonces": 26,
+          "prix_m2_moyen": 20015,
+          "prix_m2_median": 19800,
+          "prix_moyen": 2203077,
+          "prix_median": 1490000
+        },
+        {
+          "quartier": "Autre secteur",
+          "n_annonces": 25,
+          "prix_m2_moyen": 19795,
+          "prix_m2_median": 17778,
+          "prix_moyen": 1633600,
+          "prix_median": 1200000
+        },
+        {
+          "quartier": "Azzouzia",
+          "n_annonces": 24,
+          "prix_m2_moyen": 17918,
+          "prix_m2_median": 16898,
+          "prix_moyen": 1019583,
+          "prix_median": 780000
+        },
+        {
+          "quartier": "Hay Charaf",
+          "n_annonces": 24,
+          "prix_m2_moyen": 19423,
+          "prix_m2_median": 18214,
+          "prix_moyen": 1188458,
+          "prix_median": 870000
+        },
+        {
+          "quartier": "Mabrouka",
+          "n_annonces": 17,
+          "prix_m2_moyen": 25455,
+          "prix_m2_median": 23871,
+          "prix_moyen": 1297294,
+          "prix_median": 1240000
+        },
+        {
+          "quartier": "Route de Safi",
+          "n_annonces": 17,
+          "prix_m2_moyen": 22019,
+          "prix_m2_median": 23504,
+          "prix_moyen": 2077647,
+          "prix_median": 1900000
+        },
+        {
+          "quartier": "Semlalia",
+          "n_annonces": 16,
+          "prix_m2_moyen": 26061,
+          "prix_m2_median": 26122,
+          "prix_moyen": 2079562,
+          "prix_median": 1590000
+        },
+        {
+          "quartier": "Allal El Fassi",
+          "n_annonces": 16,
+          "prix_m2_moyen": 30251,
+          "prix_m2_median": 22180,
+          "prix_moyen": 2227625,
+          "prix_median": 2451000
+        },
+        {
+          "quartier": "Amerchich",
+          "n_annonces": 12,
+          "prix_m2_moyen": 19926,
+          "prix_m2_median": 17297,
+          "prix_moyen": 822083,
+          "prix_median": 575000
+        },
+        {
+          "quartier": "Sidi Youssef Ben Ali",
+          "n_annonces": 12,
+          "prix_m2_moyen": 21496,
+          "prix_m2_median": 22262,
+          "prix_moyen": 1045000,
+          "prix_median": 725000
+        },
+        {
+          "quartier": "Daoudiate",
+          "n_annonces": 11,
+          "prix_m2_moyen": 17488,
+          "prix_m2_median": 12778,
+          "prix_moyen": 877273,
+          "prix_median": 520000
+        },
+        {
+          "quartier": "Route de Casablanca",
+          "n_annonces": 11,
+          "prix_m2_moyen": 22329,
+          "prix_m2_median": 21428,
+          "prix_moyen": 1885818,
+          "prix_median": 1100000
+        },
+        {
+          "quartier": "Massira 2",
+          "n_annonces": 9,
+          "prix_m2_moyen": 14498,
+          "prix_m2_median": 10000,
+          "prix_moyen": 1232222,
+          "prix_median": 610000
+        },
+        {
+          "quartier": "Les Portes de Marrakech",
+          "n_annonces": 9,
+          "prix_m2_moyen": 24728,
+          "prix_m2_median": 24490,
+          "prix_moyen": 1701111,
+          "prix_median": 1200000
+        },
+        {
+          "quartier": "Es Saada",
+          "n_annonces": 9,
+          "prix_m2_moyen": 27402,
+          "prix_m2_median": 25926,
+          "prix_moyen": 985555,
+          "prix_median": 890000
+        },
+        {
+          "quartier": "Bouaakkaz",
+          "n_annonces": 8,
+          "prix_m2_moyen": 18221,
+          "prix_m2_median": 18334,
+          "prix_moyen": 1092750,
+          "prix_median": 650000
+        },
+        {
+          "quartier": "Victor Hugo",
+          "n_annonces": 8,
+          "prix_m2_moyen": 21985,
+          "prix_m2_median": 20135,
+          "prix_moyen": 2965250,
+          "prix_median": 2820000
+        },
+        {
+          "quartier": "Massira",
+          "n_annonces": 7,
+          "prix_m2_moyen": 15713,
+          "prix_m2_median": 11290,
+          "prix_moyen": 1471429,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "Massira 1",
+          "n_annonces": 7,
+          "prix_m2_moyen": 24280,
+          "prix_m2_median": 19231,
+          "prix_moyen": 900000,
+          "prix_median": 1150000
+        },
+        {
+          "quartier": "Jemaa El Fna",
+          "n_annonces": 6,
+          "prix_m2_moyen": 73944,
+          "prix_m2_median": 83334,
+          "prix_moyen": 2200000,
+          "prix_median": 1900000
+        },
+        {
+          "quartier": "Massira 3",
+          "n_annonces": 6,
+          "prix_m2_moyen": 17212,
+          "prix_m2_median": 14280,
+          "prix_moyen": 863333,
+          "prix_median": 470000
+        },
+        {
+          "quartier": "Azli",
+          "n_annonces": 6,
+          "prix_m2_moyen": 11016,
+          "prix_m2_median": 11912,
+          "prix_moyen": 1534167,
+          "prix_median": 760000
+        },
+        {
+          "quartier": "Hay Al Massar",
+          "n_annonces": 5,
+          "prix_m2_moyen": 10924,
+          "prix_m2_median": 6000,
+          "prix_moyen": 1726000,
+          "prix_median": 1500000
+        },
+        {
+          "quartier": "Centre Ville",
+          "n_annonces": 5,
+          "prix_m2_moyen": 22572,
+          "prix_m2_median": 26667,
+          "prix_moyen": 1208000,
+          "prix_median": 920000
+        },
+        {
+          "quartier": "Av Abdelkrim El Khattabi",
+          "n_annonces": 5,
+          "prix_m2_moyen": 27404,
+          "prix_m2_median": 20000,
+          "prix_moyen": 1876000,
+          "prix_median": 800000
+        },
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 5,
+          "prix_m2_moyen": 18166,
+          "prix_m2_median": 18571,
+          "prix_moyen": 478000,
+          "prix_median": 390000
+        }
+      ]
+    },
+    "maisons": {
+      "n_total_annonces": 687,
+      "prix_m2": {
+        "moyen": 11816,
+        "median": 11616,
+        "min": 180,
+        "max": 39474
+      },
+      "prix": {
+        "moyen": 1412278,
+        "median": 1400000
+      },
+      "quartiers": [
+        {
+          "quartier": "M'Hamid",
+          "n_annonces": 101,
+          "prix_m2_moyen": 14324,
+          "prix_m2_median": 14286,
+          "prix_moyen": 1664851,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 61,
+          "prix_m2_moyen": 6030,
+          "prix_m2_median": 5469,
+          "prix_moyen": 943672,
+          "prix_median": 750000
+        },
+        {
+          "quartier": "Autre secteur",
+          "n_annonces": 56,
+          "prix_m2_moyen": 8651,
+          "prix_m2_median": 6988,
+          "prix_moyen": 1007500,
+          "prix_median": 750000
+        },
+        {
+          "quartier": "Ancienne Médina",
+          "n_annonces": 38,
+          "prix_m2_moyen": 18222,
+          "prix_m2_median": 16667,
+          "prix_moyen": 1748684,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "Sidi Youssef Ben Ali",
+          "n_annonces": 32,
+          "prix_m2_moyen": 12477,
+          "prix_m2_median": 11049,
+          "prix_moyen": 1146094,
+          "prix_median": 1090000
+        },
+        {
+          "quartier": "Route de Ouarzazate",
+          "n_annonces": 25,
+          "prix_m2_moyen": 4326,
+          "prix_m2_median": 3426,
+          "prix_moyen": 515160,
+          "prix_median": 400000
+        },
+        {
+          "quartier": "Daoudiate",
+          "n_annonces": 23,
+          "prix_m2_moyen": 14328,
+          "prix_m2_median": 14773,
+          "prix_moyen": 1730435,
+          "prix_median": 1500000
+        },
+        {
+          "quartier": "Route de Casablanca",
+          "n_annonces": 22,
+          "prix_m2_moyen": 10594,
+          "prix_m2_median": 10000,
+          "prix_moyen": 1788636,
+          "prix_median": 1625000
+        },
+        {
+          "quartier": "Azli",
+          "n_annonces": 21,
+          "prix_m2_moyen": 12693,
+          "prix_m2_median": 12397,
+          "prix_moyen": 1533333,
+          "prix_median": 1450000
+        },
+        {
+          "quartier": "Route de Tamansourt",
+          "n_annonces": 16,
+          "prix_m2_moyen": 9178,
+          "prix_m2_median": 10639,
+          "prix_moyen": 813750,
+          "prix_median": 850000
+        },
+        {
+          "quartier": "Afaq",
+          "n_annonces": 15,
+          "prix_m2_moyen": 9360,
+          "prix_m2_median": 9600,
+          "prix_moyen": 819333,
+          "prix_median": 720000
+        },
+        {
+          "quartier": "Route de Fès",
+          "n_annonces": 14,
+          "prix_m2_moyen": 5206,
+          "prix_m2_median": 4852,
+          "prix_moyen": 1222143,
+          "prix_median": 900000
+        },
+        {
+          "quartier": "Socoma",
+          "n_annonces": 13,
+          "prix_m2_moyen": 11744,
+          "prix_m2_median": 12142,
+          "prix_moyen": 1535385,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "Route d'Agadir - Essaouira",
+          "n_annonces": 12,
+          "prix_m2_moyen": 3829,
+          "prix_m2_median": 3272,
+          "prix_moyen": 705000,
+          "prix_median": 405000
+        },
+        {
+          "quartier": "Annakhil",
+          "n_annonces": 11,
+          "prix_m2_moyen": 9857,
+          "prix_m2_median": 7317,
+          "prix_moyen": 1238182,
+          "prix_median": 1050000
+        },
+        {
+          "quartier": "Iziki",
+          "n_annonces": 10,
+          "prix_m2_moyen": 9040,
+          "prix_m2_median": 8649,
+          "prix_moyen": 1517000,
+          "prix_median": 1150000
+        },
+        {
+          "quartier": "Bouaakkaz",
+          "n_annonces": 9,
+          "prix_m2_moyen": 15844,
+          "prix_m2_median": 16875,
+          "prix_moyen": 1458889,
+          "prix_median": 1450000
+        },
+        {
+          "quartier": "Massira 1",
+          "n_annonces": 8,
+          "prix_m2_moyen": 13561,
+          "prix_m2_median": 15125,
+          "prix_moyen": 1862500,
+          "prix_median": 1850000
+        },
+        {
+          "quartier": "Hay Al Hassani",
+          "n_annonces": 8,
+          "prix_m2_moyen": 14384,
+          "prix_m2_median": 14177,
+          "prix_moyen": 1842500,
+          "prix_median": 1900000
+        },
+        {
+          "quartier": "Route de Sidi A. Ghiat",
+          "n_annonces": 8,
+          "prix_m2_moyen": 3528,
+          "prix_m2_median": 3034,
+          "prix_moyen": 543750,
+          "prix_median": 410000
+        },
+        {
+          "quartier": "Route de Tahanaoute",
+          "n_annonces": 8,
+          "prix_m2_moyen": 5171,
+          "prix_m2_median": 2476,
+          "prix_moyen": 937500,
+          "prix_median": 740000
+        },
+        {
+          "quartier": "Route d'Amezmiz",
+          "n_annonces": 8,
+          "prix_m2_moyen": 9582,
+          "prix_m2_median": 9077,
+          "prix_moyen": 1697500,
+          "prix_median": 1025000
+        },
+        {
+          "quartier": "Oued Ourika",
+          "n_annonces": 7,
+          "prix_m2_moyen": 3298,
+          "prix_m2_median": 3125,
+          "prix_moyen": 394286,
+          "prix_median": 400000
+        },
+        {
+          "quartier": "Azzouzia",
+          "n_annonces": 7,
+          "prix_m2_moyen": 15482,
+          "prix_m2_median": 18824,
+          "prix_moyen": 1667143,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "Bab Doukkala",
+          "n_annonces": 7,
+          "prix_m2_moyen": 24151,
+          "prix_m2_median": 19444,
+          "prix_moyen": 1542857,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "Bab Aylan",
+          "n_annonces": 7,
+          "prix_m2_moyen": 13572,
+          "prix_m2_median": 13542,
+          "prix_moyen": 1692857,
+          "prix_median": 1400000
+        },
+        {
+          "quartier": "Es Saada",
+          "n_annonces": 7,
+          "prix_m2_moyen": 12005,
+          "prix_m2_median": 4179,
+          "prix_moyen": 1647143,
+          "prix_median": 280000
+        },
+        {
+          "quartier": "Ain Mezouar",
+          "n_annonces": 6,
+          "prix_m2_moyen": 11787,
+          "prix_m2_median": 11620,
+          "prix_moyen": 1305000,
+          "prix_median": 1325000
+        },
+        {
+          "quartier": "Hay Izdihar",
+          "n_annonces": 6,
+          "prix_m2_moyen": 22352,
+          "prix_m2_median": 22785,
+          "prix_moyen": 2066667,
+          "prix_median": 1850000
+        },
+        {
+          "quartier": "Hay Charaf",
+          "n_annonces": 6,
+          "prix_m2_moyen": 18906,
+          "prix_m2_median": 20828,
+          "prix_moyen": 2805000,
+          "prix_median": 2725000
+        },
+        {
+          "quartier": "Route de Safi",
+          "n_annonces": 6,
+          "prix_m2_moyen": 9461,
+          "prix_m2_median": 10232,
+          "prix_moyen": 2541667,
+          "prix_median": 2600000
+        },
+        {
+          "quartier": "Massira 3",
+          "n_annonces": 6,
+          "prix_m2_moyen": 16215,
+          "prix_m2_median": 18000,
+          "prix_moyen": 1741667,
+          "prix_median": 1425000
+        },
+        {
+          "quartier": "Bab Ghmat",
+          "n_annonces": 5,
+          "prix_m2_moyen": 13083,
+          "prix_m2_median": 14530,
+          "prix_moyen": 1288000,
+          "prix_median": 1700000
+        },
+        {
+          "quartier": "Massira 2",
+          "n_annonces": 5,
+          "prix_m2_moyen": 20458,
+          "prix_m2_median": 18750,
+          "prix_moyen": 1800000,
+          "prix_median": 1500000
+        }
+      ]
+    },
+    "riads": {
+      "n_total_annonces": 286,
+      "prix_m2": {
+        "moyen": 24506,
+        "median": 21926,
+        "min": 3250,
+        "max": 78261
+      },
+      "prix": {
+        "moyen": 4000341,
+        "median": 3200000
+      },
+      "quartiers": [
+        {
+          "quartier": "Ancienne Médina",
+          "n_annonces": 85,
+          "prix_m2_moyen": 22897,
+          "prix_m2_median": 20500,
+          "prix_moyen": 3837176,
+          "prix_median": 3000000
+        },
+        {
+          "quartier": "Bab Doukkala",
+          "n_annonces": 39,
+          "prix_m2_moyen": 27558,
+          "prix_m2_median": 23810,
+          "prix_moyen": 4647436,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Jemaa El Fna",
+          "n_annonces": 31,
+          "prix_m2_moyen": 30480,
+          "prix_m2_median": 27500,
+          "prix_moyen": 4587097,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Kasbah",
+          "n_annonces": 15,
+          "prix_m2_moyen": 32631,
+          "prix_m2_median": 26027,
+          "prix_moyen": 5020000,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Bab Aylan",
+          "n_annonces": 8,
+          "prix_m2_moyen": 16421,
+          "prix_m2_median": 13948,
+          "prix_moyen": 3111693,
+          "prix_median": 2150000
+        },
+        {
+          "quartier": "Bab El Khemis",
+          "n_annonces": 8,
+          "prix_m2_moyen": 14158,
+          "prix_m2_median": 12400,
+          "prix_moyen": 1877500,
+          "prix_median": 1860000
+        },
+        {
+          "quartier": "Centre Ville",
+          "n_annonces": 7,
+          "prix_m2_moyen": 28286,
+          "prix_m2_median": 24026,
+          "prix_moyen": 4485714,
+          "prix_median": 3700000
+        },
+        {
+          "quartier": "Riad Zitoun",
+          "n_annonces": 6,
+          "prix_m2_moyen": 45302,
+          "prix_m2_median": 49026,
+          "prix_moyen": 6350000,
+          "prix_median": 6150000
+        },
+        {
+          "quartier": "Berrima",
+          "n_annonces": 5,
+          "prix_m2_moyen": 27918,
+          "prix_m2_median": 25500,
+          "prix_moyen": 3360000,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Bab Ghmat",
+          "n_annonces": 5,
+          "prix_m2_moyen": 15265,
+          "prix_m2_median": 16750,
+          "prix_moyen": 3310000,
+          "prix_median": 3350000
+        }
+      ]
+    },
+    "terrains": {
+      "n_total_annonces": 1141,
+      "prix_m2": {
+        "moyen": 2686,
+        "median": 743,
+        "min": 2,
+        "max": 26158
+      },
+      "prix": {
+        "moyen": 1951389,
+        "median": 1200000
+      },
+      "quartiers": [
+        {
+          "quartier": "Route D Ourika",
+          "n_annonces": 171,
+          "prix_m2_moyen": 1990,
+          "prix_m2_median": 588,
+          "prix_moyen": 1842212,
+          "prix_median": 980000
+        },
+        {
+          "quartier": "Route De Casablanca",
+          "n_annonces": 130,
+          "prix_m2_moyen": 2613,
+          "prix_m2_median": 671,
+          "prix_moyen": 1439774,
+          "prix_median": 820000
+        },
+        {
+          "quartier": "Route De Fès",
+          "n_annonces": 121,
+          "prix_m2_moyen": 411,
+          "prix_m2_median": 175,
+          "prix_moyen": 1563785,
+          "prix_median": 1000000
+        },
+        {
+          "quartier": "Route D Amezmiz",
+          "n_annonces": 101,
+          "prix_m2_moyen": 1531,
+          "prix_m2_median": 416,
+          "prix_moyen": 2167493,
+          "prix_median": 1250000
+        },
+        {
+          "quartier": "Autre Secteur",
+          "n_annonces": 64,
+          "prix_m2_moyen": 1905,
+          "prix_m2_median": 790,
+          "prix_moyen": 1989576,
+          "prix_median": 870000
+        },
+        {
+          "quartier": "Route De Ouarzazate",
+          "n_annonces": 44,
+          "prix_m2_moyen": 991,
+          "prix_m2_median": 586,
+          "prix_moyen": 1591545,
+          "prix_median": 800000
+        },
+        {
+          "quartier": "Route De Tahanaoute",
+          "n_annonces": 43,
+          "prix_m2_moyen": 2703,
+          "prix_m2_median": 1036,
+          "prix_moyen": 2708233,
+          "prix_median": 2100000
+        },
+        {
+          "quartier": "Targa",
+          "n_annonces": 40,
+          "prix_m2_moyen": 4572,
+          "prix_m2_median": 4353,
+          "prix_moyen": 2593797,
+          "prix_median": 1970000
+        },
+        {
+          "quartier": "Route De Sidi A. Ghiat",
+          "n_annonces": 29,
+          "prix_m2_moyen": 629,
+          "prix_m2_median": 263,
+          "prix_moyen": 1968034,
+          "prix_median": 1200000
+        },
+        {
+          "quartier": "Sidi Abdellah Ghiat",
+          "n_annonces": 28,
+          "prix_m2_moyen": 694,
+          "prix_m2_median": 270,
+          "prix_moyen": 1566786,
+          "prix_median": 1075000
+        },
+        {
+          "quartier": "Route D Agadir   Essaouira",
+          "n_annonces": 27,
+          "prix_m2_moyen": 174,
+          "prix_m2_median": 120,
+          "prix_moyen": 2020926,
+          "prix_median": 1600000
+        },
+        {
+          "quartier": "Azzouzia",
+          "n_annonces": 26,
+          "prix_m2_moyen": 6398,
+          "prix_m2_median": 6014,
+          "prix_moyen": 1198688,
+          "prix_median": 910000
+        },
+        {
+          "quartier": "M Hamid",
+          "n_annonces": 25,
+          "prix_m2_moyen": 7139,
+          "prix_m2_median": 7080,
+          "prix_moyen": 2009160,
+          "prix_median": 1300000
+        },
+        {
+          "quartier": "Agdal",
+          "n_annonces": 23,
+          "prix_m2_moyen": 4686,
+          "prix_m2_median": 4800,
+          "prix_moyen": 2633848,
+          "prix_median": 2300000
+        },
+        {
+          "quartier": "Route De Tamansourt",
+          "n_annonces": 19,
+          "prix_m2_moyen": 2898,
+          "prix_m2_median": 2525,
+          "prix_moyen": 1007632,
+          "prix_median": 400000
+        },
+        {
+          "quartier": "Route De Lalla Takerkoust",
+          "n_annonces": 17,
+          "prix_m2_moyen": 779,
+          "prix_m2_median": 120,
+          "prix_moyen": 1322118,
+          "prix_median": 1200000
+        },
+        {
+          "quartier": "Hay Targa",
+          "n_annonces": 16,
+          "prix_m2_moyen": 4989,
+          "prix_m2_median": 4005,
+          "prix_moyen": 2925531,
+          "prix_median": 2755250
+        },
+        {
+          "quartier": "Bab Atlas",
+          "n_annonces": 16,
+          "prix_m2_moyen": 111,
+          "prix_m2_median": 46,
+          "prix_moyen": 779375,
+          "prix_median": 595000
+        },
+        {
+          "quartier": "Palmeraie",
+          "n_annonces": 13,
+          "prix_m2_moyen": 4242,
+          "prix_m2_median": 3790,
+          "prix_moyen": 4714846,
+          "prix_median": 2563000
+        },
+        {
+          "quartier": "Guéliz",
+          "n_annonces": 13,
+          "prix_m2_moyen": 10678,
+          "prix_m2_median": 7507,
+          "prix_moyen": 4386154,
+          "prix_median": 4500000
+        },
+        {
+          "quartier": "Route de Casablanca",
+          "n_annonces": 12,
+          "prix_m2_moyen": 4565,
+          "prix_m2_median": 6118,
+          "prix_moyen": 2176667,
+          "prix_median": 1450000
+        },
+        {
+          "quartier": "Av Mohammed Vi",
+          "n_annonces": 12,
+          "prix_m2_moyen": 5387,
+          "prix_m2_median": 5100,
+          "prix_moyen": 2318333,
+          "prix_median": 1825000
+        },
+        {
+          "quartier": "Allal El Fassi",
+          "n_annonces": 9,
+          "prix_m2_moyen": 4058,
+          "prix_m2_median": 3448,
+          "prix_moyen": 2221111,
+          "prix_median": 1900000
+        },
+        {
+          "quartier": "Annakhil",
+          "n_annonces": 9,
+          "prix_m2_moyen": 2916,
+          "prix_m2_median": 3214,
+          "prix_moyen": 2037071,
+          "prix_median": 960000
+        },
+        {
+          "quartier": "Route De Safi",
+          "n_annonces": 9,
+          "prix_m2_moyen": 3825,
+          "prix_m2_median": 396,
+          "prix_moyen": 2664889,
+          "prix_median": 2500000
+        },
+        {
+          "quartier": "Oued Ourika",
+          "n_annonces": 8,
+          "prix_m2_moyen": 831,
+          "prix_m2_median": 422,
+          "prix_moyen": 1098750,
+          "prix_median": 615000
+        },
+        {
+          "quartier": "Amelkis",
+          "n_annonces": 8,
+          "prix_m2_moyen": 4276,
+          "prix_m2_median": 4790,
+          "prix_moyen": 4019750,
+          "prix_median": 3550000
+        },
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 6,
+          "prix_m2_moyen": 2822,
+          "prix_m2_median": 3095,
+          "prix_moyen": 1185000,
+          "prix_median": 1060000
+        },
+        {
+          "quartier": "Ancienne Médina",
+          "n_annonces": 6,
+          "prix_m2_moyen": 8448,
+          "prix_m2_median": 8360,
+          "prix_moyen": 1950000,
+          "prix_median": 1500000
+        },
+        {
+          "quartier": "Sidi Youssef Ben Ali",
+          "n_annonces": 6,
+          "prix_m2_moyen": 3992,
+          "prix_m2_median": 3668,
+          "prix_moyen": 2050000,
+          "prix_median": 1750000
+        },
+        {
+          "quartier": "Afaq",
+          "n_annonces": 5,
+          "prix_m2_moyen": 3452,
+          "prix_m2_median": 3250,
+          "prix_moyen": 919000,
+          "prix_median": 300000
+        }
+      ]
+    },
+    "villas": {
+      "n_total_annonces": 1265,
+      "prix_m2": {
+        "moyen": 14362,
+        "median": 13251,
+        "min": 1750,
+        "max": 49356
+      },
+      "prix": {
+        "moyen": 4186157,
+        "median": 3900000
+      },
+      "quartiers": [
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 282,
+          "prix_m2_moyen": 13918,
+          "prix_m2_median": 12667,
+          "prix_moyen": 3867983,
+          "prix_median": 3375000
+        },
+        {
+          "quartier": "Targa",
+          "n_annonces": 230,
+          "prix_m2_moyen": 14245,
+          "prix_m2_median": 12738,
+          "prix_moyen": 4359274,
+          "prix_median": 4050000
+        },
+        {
+          "quartier": "Route d'Amezmiz",
+          "n_annonces": 77,
+          "prix_m2_moyen": 15801,
+          "prix_m2_median": 14821,
+          "prix_moyen": 4700325,
+          "prix_median": 4300000
+        },
+        {
+          "quartier": "Route de Tahanaoute",
+          "n_annonces": 73,
+          "prix_m2_moyen": 16511,
+          "prix_m2_median": 15548,
+          "prix_moyen": 5285075,
+          "prix_median": 4600000
+        },
+        {
+          "quartier": "Route de Fès",
+          "n_annonces": 72,
+          "prix_m2_moyen": 13261,
+          "prix_m2_median": 13674,
+          "prix_moyen": 4582083,
+          "prix_median": 4200000
+        },
+        {
+          "quartier": "Route de Casablanca",
+          "n_annonces": 48,
+          "prix_m2_moyen": 13223,
+          "prix_m2_median": 12510,
+          "prix_moyen": 4136875,
+          "prix_median": 3950000
+        },
+        {
+          "quartier": "Av Mohammed VI",
+          "n_annonces": 33,
+          "prix_m2_moyen": 18849,
+          "prix_m2_median": 16667,
+          "prix_moyen": 6183333,
+          "prix_median": 6400000
+        },
+        {
+          "quartier": "Route de Ouarzazate",
+          "n_annonces": 31,
+          "prix_m2_moyen": 12645,
+          "prix_m2_median": 11607,
+          "prix_moyen": 3019677,
+          "prix_median": 2500000
+        },
+        {
+          "quartier": "Route de Sidi A. Ghiat",
+          "n_annonces": 30,
+          "prix_m2_moyen": 12429,
+          "prix_m2_median": 11382,
+          "prix_moyen": 2403333,
+          "prix_median": 1950000
+        },
+        {
+          "quartier": "Agdal",
+          "n_annonces": 30,
+          "prix_m2_moyen": 15160,
+          "prix_m2_median": 15434,
+          "prix_moyen": 5214667,
+          "prix_median": 4800000
+        },
+        {
+          "quartier": "Sidi Abdellah Ghiat",
+          "n_annonces": 26,
+          "prix_m2_moyen": 11577,
+          "prix_m2_median": 11056,
+          "prix_moyen": 4013462,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Palmeraie",
+          "n_annonces": 20,
+          "prix_m2_moyen": 17111,
+          "prix_m2_median": 16056,
+          "prix_moyen": 4193000,
+          "prix_median": 3850000
+        },
+        {
+          "quartier": "Les Portes de Marrakech",
+          "n_annonces": 20,
+          "prix_m2_moyen": 13381,
+          "prix_m2_median": 11420,
+          "prix_moyen": 4045500,
+          "prix_median": 3100000
+        },
+        {
+          "quartier": "Amelkis",
+          "n_annonces": 18,
+          "prix_m2_moyen": 19000,
+          "prix_m2_median": 18320,
+          "prix_moyen": 7566667,
+          "prix_median": 7750000
+        },
+        {
+          "quartier": "Route de Tamansourt",
+          "n_annonces": 18,
+          "prix_m2_moyen": 7897,
+          "prix_m2_median": 7334,
+          "prix_moyen": 1360456,
+          "prix_median": 1050000
+        },
+        {
+          "quartier": "Afaq",
+          "n_annonces": 17,
+          "prix_m2_moyen": 14126,
+          "prix_m2_median": 12500,
+          "prix_moyen": 2398665,
+          "prix_median": 2200000
+        },
+        {
+          "quartier": "Assif",
+          "n_annonces": 15,
+          "prix_m2_moyen": 14623,
+          "prix_m2_median": 13333,
+          "prix_moyen": 3400000,
+          "prix_median": 3000000
+        },
+        {
+          "quartier": "Annakhil",
+          "n_annonces": 14,
+          "prix_m2_moyen": 17031,
+          "prix_m2_median": 15778,
+          "prix_moyen": 5685714,
+          "prix_median": 4250000
+        },
+        {
+          "quartier": "Amerchich",
+          "n_annonces": 14,
+          "prix_m2_moyen": 13771,
+          "prix_m2_median": 12125,
+          "prix_moyen": 4550000,
+          "prix_median": 4600000
+        },
+        {
+          "quartier": "M'Hamid",
+          "n_annonces": 13,
+          "prix_m2_moyen": 10250,
+          "prix_m2_median": 8333,
+          "prix_moyen": 3122308,
+          "prix_median": 2950000
+        },
+        {
+          "quartier": "Hay Izdihar",
+          "n_annonces": 12,
+          "prix_m2_moyen": 20033,
+          "prix_m2_median": 19664,
+          "prix_moyen": 4177083,
+          "prix_median": 4000000
+        },
+        {
+          "quartier": "Guéliz",
+          "n_annonces": 12,
+          "prix_m2_moyen": 15539,
+          "prix_m2_median": 12060,
+          "prix_moyen": 5245833,
+          "prix_median": 3975000
+        },
+        {
+          "quartier": "Daoudiate",
+          "n_annonces": 11,
+          "prix_m2_moyen": 12770,
+          "prix_m2_median": 13462,
+          "prix_moyen": 3466364,
+          "prix_median": 3500000
+        },
+        {
+          "quartier": "Azzouzia",
+          "n_annonces": 11,
+          "prix_m2_moyen": 14672,
+          "prix_m2_median": 12183,
+          "prix_moyen": 2590909,
+          "prix_median": 2300000
+        },
+        {
+          "quartier": "Route de Lalla Takerkoust",
+          "n_annonces": 10,
+          "prix_m2_moyen": 15004,
+          "prix_m2_median": 9972,
+          "prix_moyen": 3131000,
+          "prix_median": 2700000
+        },
+        {
+          "quartier": "Massira 2",
+          "n_annonces": 9,
+          "prix_m2_moyen": 12898,
+          "prix_m2_median": 10321,
+          "prix_moyen": 4788889,
+          "prix_median": 4500000
+        },
+        {
+          "quartier": "Sidi Abbad",
+          "n_annonces": 9,
+          "prix_m2_moyen": 17052,
+          "prix_m2_median": 15238,
+          "prix_moyen": 3405555,
+          "prix_median": 3200000
+        },
+        {
+          "quartier": "Mabrouka",
+          "n_annonces": 8,
+          "prix_m2_moyen": 15732,
+          "prix_m2_median": 12666,
+          "prix_moyen": 3225000,
+          "prix_median": 3200000
+        },
+        {
+          "quartier": "Massira 3",
+          "n_annonces": 7,
+          "prix_m2_moyen": 18122,
+          "prix_m2_median": 19091,
+          "prix_moyen": 3700000,
+          "prix_median": 2600000
+        },
+        {
+          "quartier": "Sofia",
+          "n_annonces": 6,
+          "prix_m2_moyen": 10356,
+          "prix_m2_median": 10451,
+          "prix_moyen": 3325000,
+          "prix_median": 3425000
+        },
+        {
+          "quartier": "Ain Mezouar",
+          "n_annonces": 5,
+          "prix_m2_moyen": 14255,
+          "prix_m2_median": 14375,
+          "prix_moyen": 3507000,
+          "prix_median": 2800000
+        },
+        {
+          "quartier": "Allal El Fassi",
+          "n_annonces": 5,
+          "prix_m2_moyen": 13246,
+          "prix_m2_median": 14615,
+          "prix_moyen": 2800000,
+          "prix_median": 2500000
+        },
+        {
+          "quartier": "Route de Safi",
+          "n_annonces": 5,
+          "prix_m2_moyen": 10411,
+          "prix_m2_median": 11174,
+          "prix_moyen": 4314000,
+          "prix_median": 3000000
+        },
+        {
+          "quartier": "Semlalia",
+          "n_annonces": 5,
+          "prix_m2_moyen": 15947,
+          "prix_m2_median": 16667,
+          "prix_moyen": 3520000,
+          "prix_median": 3200000
+        }
+      ]
+    },
+    "maisons_dhotes": {
+      "n_total_annonces": 151,
+      "prix_m2": {
+        "moyen": 18526,
+        "median": 17500,
+        "min": 2946,
+        "max": 54286
+      },
+      "prix": {
+        "moyen": 12039871,
+        "median": 8800000
+      },
+      "quartiers": [
+        {
+          "quartier": "Ancienne Médina",
+          "n_annonces": 45,
+          "prix_m2_moyen": 20897,
+          "prix_m2_median": 19000,
+          "prix_moyen": 10301000,
+          "prix_median": 7245000
+        },
+        {
+          "quartier": "Route d'Ourika",
+          "n_annonces": 24,
+          "prix_m2_moyen": 13013,
+          "prix_m2_median": 12208,
+          "prix_moyen": 11238750,
+          "prix_median": 9350000
+        },
+        {
+          "quartier": "Jemaa El Fna",
+          "n_annonces": 9,
+          "prix_m2_moyen": 25413,
+          "prix_m2_median": 24667,
+          "prix_moyen": 9955556,
+          "prix_median": 9500000
+        },
+        {
+          "quartier": "Autre secteur",
+          "n_annonces": 9,
+          "prix_m2_moyen": 21386,
+          "prix_m2_median": 22619,
+          "prix_moyen": 15728778,
+          "prix_median": 10100000
+        },
+        {
+          "quartier": "Oued Ourika",
+          "n_annonces": 9,
+          "prix_m2_moyen": 11550,
+          "prix_m2_median": 10000,
+          "prix_moyen": 2747778,
+          "prix_median": 2950000
+        },
+        {
+          "quartier": "Route de Fès",
+          "n_annonces": 9,
+          "prix_m2_moyen": 15633,
+          "prix_m2_median": 15278,
+          "prix_moyen": 15991778,
+          "prix_median": 13800000
+        },
+        {
+          "quartier": "Palmeraie",
+          "n_annonces": 5,
+          "prix_m2_moyen": 26064,
+          "prix_m2_median": 23300,
+          "prix_moyen": 23120000,
+          "prix_median": 23300000
+        },
+        {
+          "quartier": "Route de Ouarzazate",
+          "n_annonces": 5,
+          "prix_m2_moyen": 22295,
+          "prix_m2_median": 23469,
+          "prix_moyen": 17026000,
+          "prix_median": 18000000
+        }
+      ]
+    }
+  },
+  "repartition_marche": [
+    {
+      "categorie": "appartements",
+      "n_annonces": 3075
+    },
+    {
+      "categorie": "bureaux",
+      "n_annonces": 87
+    },
+    {
+      "categorie": "magasins",
+      "n_annonces": 488
+    },
+    {
+      "categorie": "maisons",
+      "n_annonces": 687
+    },
+    {
+      "categorie": "riads",
+      "n_annonces": 286
+    },
+    {
+      "categorie": "terrains",
+      "n_annonces": 1141
+    },
+    {
+      "categorie": "villas",
+      "n_annonces": 1265
+    },
+    {
+      "categorie": "maisons_dhotes",
+      "n_annonces": 151
+    }
+  ]
+}
